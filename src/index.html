@@ -269,17 +269,22 @@
 
     <main class="w-screen h-[1080px] bg-[#FFB282]"">
       <!-- Title -->
-      <div>
-        <h1>CONHEÇA NOSSA ESTRUTURA</h1>
+      <div class=" text-white text-center text-[80px] font-extrabold pt-20">
+      <h1>CONHEÇA NOSSA ESTRUTURA</h1>
       </div>
       <!-- Video -->
-
+      <div class="flex justify-center items-center w-full">
+        <video controls width="1240" class="rounded-[30px] pt-4">
+          <source src="/src/assets/video/LIGA DOS BICHOS - (Vila Cruzeiro).mp4"">
+          <track kind="subtitles" src="legendas.vtt" srclang="pt" label="Português">
+          Seu navegador não suporta o elemento de vídeo.
+      </video>
       </div>
 
     </main>
 
     <!-- O QUE NOSSOS CLIENTES FALAM -->
-     <main class=" w-screen h-[1013px] bg-black">
+    <main class=" w-screen h-[1013px] bg-black">
       <h1 class="text-center text-white text-[60px] font-extrabold pt-20">O QUE NOSSOS CLIENTES FALAM?</h1>
       <article class=" flex justify-center items-center text-center gap-4 pt-[101px]">
         <!-- 1 -->
@@ -320,40 +325,59 @@
     </main>
 
     <!-- Formulario -->
-    <main>
+    <main class="w-screen h-[1000px] bg-[#F7EBE1] flex justify-center items-center text-center gap-[10px]">
       <div>
         <figure><img src="/src/assets/img/ banho.png" /></figure>
       </div>
 
-      <div>
-        <figure><img src="/src/assets/img/pata.png" /></figure>
-        <h1>Agende por e-mail!</h1>
+      <div
+        class="w-[496px] h-[729px] bg-white border-gray-400 border-[1px] rounded-[30px] justify-center items-center content-center">
+        <figure class=" flex justify-center items-center"><img src="/src/assets/img/pata.png" /></figure>
+        <h1 class="font-semibold text-[29px] pt-3 pb-8">Agende por e-mail!</h1>
 
         <form>
           <label for="text"></label>
-          <input type="text" placeholder="Digite seu nome..." id="name" required>
+          <input type="text" placeholder="Digite seu nome..." id="name" required
+            class="w-[402px] rounded-[30px] h-[50px] bg-[#D9D9D9] text-center">
           <br>
           <br>
           <label for="email"></label>
-          <input type="email" name="" id="email" placeholder="Digite seu e-mail..." required>
+          <input type="email" name="" id="email" placeholder="Digite seu e-mail..." required
+            class="w-[402px] rounded-[30px] h-[50px] bg-[#D9D9D9] text-center">
           <br>
           <br>
           <label for="text"></label>
-          <input type="text" name="" id="text" placeholder="Digite seu bairro..." required>
+          <input type="text" name="" id="text" placeholder="Digite seu bairro..." required
+            class="w-[402px] rounded-[30px] h-[50px] bg-[#D9D9D9] text-center">
           <br>
           <br>
           <label for="phone"></label>
-          <input type="tel" name="" id="phone" placeholder="(DDD) Digite seu numero.." required>
+          <input type="tel" name="" id="phone" placeholder="(DDD) Digite seu numero.." required
+            class="w-[402px] rounded-[30px] h-[50px] bg-[#D9D9D9] text-center">
           <br>
           <br>
           <label for="button"></label>
-          <input type="submit" value="Enviar" id="submit">
+          <input type="submit" value="Enviar" id="submit"
+            class="w-[402px] rounded-[30px] h-[40px] bg-[#FF914D] text-center text-white">
         </form>
+      </div>
+      </div>
+    </main>
 
-
+    <footer class="w-screen h-[280px] bg-[#FFD5B5] flex justify-center items-center content-center gap-[105px]">
+      <div>
+        <p>Liga dos Bichos - Todos os direitos reservados.</p>
       </div>
 
+      <div class="flex gap-3">
+        <figure class="cursor-pointer"><img src="/src/assets/img/small-fb.svg" alt=""></figure>
+        <figure class="cursor-pointer"><img src="/src/assets/img/small.inst.svg" alt=""></figure>
       </div>
+
+      <div>
+        <figure><img src="/src/assets/img/small-logo.png" alt=""></figure>
+      </div>
+    </footer>
 
   </section>
 </body>
