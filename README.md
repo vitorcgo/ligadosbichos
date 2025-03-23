@@ -1,4 +1,4 @@
-🐾 Liga dos Bichos - Re-Design Acadêmico 🐾
+🐾 Liga dos Bichos 🐾
 Bem-vindo ao projeto Liga dos Bichos!
 Este re-design foi feito como parte de um projeto acadêmico, onde eu aproveitei o conceito original do site e apliquei melhorias usando tecnologias modernas e boas práticas de desenvolvimento web.
 
