@@ -1,14 +1,14 @@
-🐾 Liga dos Bichos 🐾
-Bem-vindo ao projeto Liga dos Bichos!
-Este re-design foi feito como parte de um projeto acadêmico, onde eu aproveitei o conceito original do site e apliquei melhorias usando tecnologias modernas e boas práticas de desenvolvimento web.
+🐾 Liga dos Bichos 🐾<br>
+Bem-vindo ao projeto Liga dos Bichos!<br>
+Este re-design foi feito como parte de um projeto acadêmico, onde eu aproveitei o conceito original do site e apliquei melhorias usando tecnologias modernas e boas práticas de desenvolvimento web.<br>
+<br>
+O objetivo principal foi refatorar o código, torná-lo mais limpo, eficiente e modular, e trazer uma UI/UX aprimorada como bônus!<br>
 
-O objetivo principal foi refatorar o código, torná-lo mais limpo, eficiente e modular, e trazer uma UI/UX aprimorada como bônus!
+🛠️ Tecnologias Utilizadas<br>
+Aqui está a stack que deu vida a este projeto:<br>
 
-🛠️ Tecnologias Utilizadas
-Aqui está a stack que deu vida a este projeto:
-
-Frontend (Construção da Interface)
-HTML5: Estrutura semântica sólida, com tags modernas e boas práticas.
+Frontend (Construção da Interface)<br>
+HTML5: Estrutura semântica sólida, com tags modernas e boas práticas.<br>
 
 CSS3: Customizações de estilo e ajustes finos na interface.
 
